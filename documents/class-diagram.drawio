@@ -1,0 +1,126 @@
+<mxfile host="65bd71144e">
+    <diagram id="Xb7f6tzdeezMLrXfZgM0" name="ページ1">
+        <mxGraphModel dx="1296" dy="1118" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="16" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="400" y="200" width="200" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Hero" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="16" vertex="1">
+                    <mxGeometry width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&lt;span style=&quot;&quot;&gt;#equipments: Equipments[0..5]&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacing=10;" vertex="1" parent="16">
+                    <mxGeometry y="40" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="&lt;span&gt;+equip(Equipment)&lt;br&gt;+useNextEquipment(Unit)&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacing=10;" vertex="1" parent="16">
+                    <mxGeometry y="80" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="11" target="15">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="260" y="680" as="sourcePoint"/>
+                        <mxPoint x="420" y="680" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" value="" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="3" target="12">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="270" y="340" as="sourcePoint"/>
+                        <mxPoint x="440" y="530" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="37" value="" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4" target="18">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="280" y="400" as="sourcePoint"/>
+                        <mxPoint x="440" y="400" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="46" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="14" target="7">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="460" y="680" as="sourcePoint"/>
+                        <mxPoint x="620" y="680" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="50" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="9" target="12">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="640" y="620" as="sourcePoint"/>
+                        <mxPoint x="800" y="620" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="51" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="50">
+                    <mxGeometry x="0.8089" y="3" relative="1" as="geometry">
+                        <mxPoint x="5" y="-23" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="53" value="0..5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="50">
+                    <mxGeometry x="-0.7339" y="1" relative="1" as="geometry">
+                        <mxPoint y="-21" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="54" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="670" y="410" as="geometry">
+                        <mxPoint x="-152" y="-70" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="55" value="0..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="670" y="530" as="geometry">
+                        <mxPoint x="-152" y="-70" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="57" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="40" y="200" width="200" height="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Unit" style="rounded=0;whiteSpace=wrap;html=1;" parent="57" vertex="1">
+                    <mxGeometry width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="#name: string&lt;br&gt;#hitPoint: number&lt;br&gt;#magicPoint: number&lt;br&gt;#power: number&lt;br&gt;#defense: number&lt;br&gt;#speed: number&lt;br&gt;#skillName: string&lt;br&gt;#skillDamage: number&lt;br&gt;#skillCost: number" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=0;spacingBottom=0;spacingTop=0;spacing=10;" parent="57" vertex="1">
+                    <mxGeometry y="40" width="200" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="+attack(Unit)&lt;br&gt;+skill(Unit)&lt;br&gt;+onDamage(number)&lt;br&gt;+onRecover(number)&lt;br&gt;+onDead()&lt;br&gt;+getName()&lt;br&gt;+getHitPoint()&lt;br&gt;+getMagicPoint()&lt;br&gt;+getPower()&lt;br&gt;+getDefense()&lt;br&gt;+getSpeed()&lt;br&gt;+getSkillName()" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacing=10;" parent="57" vertex="1">
+                    <mxGeometry y="200" width="200" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="57" source="4" target="3">
+                    <mxGeometry x="120" y="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="760" y="200" width="200" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="+effect(Unit, Unit)" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacing=10;" vertex="1" parent="59">
+                    <mxGeometry y="80" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Equipment" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="59" vertex="1">
+                    <mxGeometry width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="#name: string&lt;br&gt;#power: number" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacing=12;" parent="59" vertex="1">
+                    <mxGeometry y="40" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="760" y="480" width="200" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="HeroSword" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="60" vertex="1">
+                    <mxGeometry width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="#recoverValue&lt;br&gt;#damageValue" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacing=10;" vertex="1" parent="60">
+                    <mxGeometry y="40" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="+recoverAndDamage(Unit, Unit)" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacing=10;" vertex="1" parent="60">
+                    <mxGeometry y="80" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="400" y="480" width="200" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Dragon" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="61" vertex="1">
+                    <mxGeometry width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacing=10;" vertex="1" parent="61">
+                    <mxGeometry y="40" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="#fire(Unit)" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacing=10;" vertex="1" parent="61">
+                    <mxGeometry y="80" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="このプログラムは、RPGのような戦闘を行うためのプログラムです。&lt;br&gt;実行すると、戦闘の流れが標準出力に表示されます。&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;span&gt;キャラクターの基本クラスであるUnitを継承して、勇者クラスHeroとドラゴンクラスDragonがあります。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;Unitの基本行動には「こうげき」と「スキルこうげき」があり、対象Unitを指定することでダメージを与えます。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;勇者は装備品クラスであるEquipmentを装備することができ、攻撃力が上がります。&lt;/div&gt;&lt;div&gt;さらに、勇者は「こうげき」と「スキルこうげき」の他に、「装備品を使う」ことができ、装備された装備品を順番に使います。&lt;/div&gt;&lt;div&gt;使われた装備品によって、使用者や対象Unitに回復、またはダメージを与えます。&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="40" width="610" height="130" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
